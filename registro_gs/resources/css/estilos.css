@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body {
+    background-color: #EAEAEA;
+}
+.contenedor{
+    font-size: x-small;
+}
+.contenedor-1 {
+    border-radius: 10px;
+    display: table;
+    overflow: hidden;		
+	position: relative;	
+	box-shadow: 0px 0px 24px #1e0941;
+	border-radius: 10px;
+	padding: 5px 5px;
+	border: 2px solid #1e0941 ;
+	overflow: scroll;
+}
+.contenedor-2 {
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;		
+	position: relative;	
+	box-shadow: 0px 0px 24px #1e0941;
+	border-radius: 10px;
+	padding: 5px 5px;
+	border: 2px solid #1e0941;
+}
+.boton {
+    background-color: #1e0941;
+    color: white;
+    font-weight: 800;
+}
+.boton:hover {
+    background: transparent;
+    border-color: #1e0941;
+    font-weight: 800;
+    border: 1px solid;
+}
+.boton-eliminar {
+    background-color: #ed1b25;
+    color: white;
+    font-weight: 800;
+    width: 70px;
+    height: 35px;
+    font-size: small;
+}
+.boton-eliminar:hover {
+    background: transparent;
+    color: #ed1b25;
+    border-color: #ed1b25;
+    font-weight: 800;
+    border: 1px solid;
+}
+
+.boton-editar {
+    background-color: #FFC107;
+    color: white;
+    font-weight: 800;
+    width: 60px;
+    height: 35px;
+    font-size: small;
+
+}
+.boton-editar:hover {
+    background: transparent;
+    color: #FFC107;
+    border-color: #FFC107;
+    font-weight: 800;
+    border: 1px solid;
+}
+
+
+thead {
+    background-color: #1e0941;
+    color: white;
+    border-color: white;
+    border: 1px solid;
+    
+}
+
+tbody {
+    border-color: #1e0941;
+    border: 1px solid;
+
+}
+
+@media  screen and (min-width: 280px) and (max-width: 540px){
+	.contenedor-1{
+		overflow: scroll;
+	
+	}
+	.contenedor-1::-webkit-scrollbar {
+		width: 8px;     /* Tamaño del scroll en vertical */
+		height: 8px;    /* Tamaño del scroll en horizontal */
+		
+	}
+	.contenedor-1::-webkit-scrollbar-thumb {
+		background: #1e0941;
+		border-radius: 4px;
+	}
+	
+	/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+	.contenedor-1::-webkit-scrollbar-thumb:hover {
+		background: white;
+		box-shadow: 0 0 2px 1px #1e0941;
+	}
+	
+	/* Cambiamos el fondo cuando esté en active */
+	.contenedor-1::-webkit-scrollbar-thumb:active {
+		background-color: #ed1b25;
+	}
+}
+@media  screen and (min-width: 768px) and (max-width: 1280px){
+	.contenedor-1{
+		overflow: scroll;
+		scrollbar-color: #1e0941 #1e0941;
+		scrollbar-width: thin;
+	}
+	
+	.contenedor-1::-webkit-scrollbar {
+		width: 8px;     /* Tamaño del scroll en vertical */
+		height: 8px;    /* Tamaño del scroll en horizontal */
+		
+	}
+	.contenedor-1::-webkit-scrollbar-thumb {
+		background: #1e0941;
+		border-radius: 4px;
+	}
+	
+	/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+	.contenedor-1::-webkit-scrollbar-thumb:hover {
+		background: white;
+		box-shadow: 0 0 2px 1px #1e0941;
+	}
+	
+	/* Cambiamos el fondo cuando esté en active */
+	.contenedor-1::-webkit-scrollbar-thumb:active {
+		background-color: #ed1b25;
+	}
+
+}
+
+.float-right {
+    float: right;
+}
+
+.titulo {
+    color: #1e0941;
+    font-weight: 800;
+}
+
+.subtitulos {
+    color: #1e0941;
+    font-weight: 800;
+}
+
+.campos {
+    border-color: #1e0941;
+    border: 1px solid;
+}
